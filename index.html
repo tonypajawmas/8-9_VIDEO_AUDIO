@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 5</title>
+  </head>
+  <body>
+    <div id="header" style="border: 2px solid purple">
+      <h1>Hi, Welcome to WVC</h1>
+      <h2>Login first to get the best use out of this site:</h2>
+
+      <form action="http://www.example.com/login.php" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" name="username" placeholder="ex. 'johndoe'" />
+        <label for="password">Password:</label>
+        <input type="password" name="password" />
+        <button>Submit</button>
+      </form>
+      <br />
+    </div>
+    <!-- end of header-->
+
+    <p>
+      <b>
+        After you've logged in, <a href="video.html">CLICK HERE</a> to watch a
+        video or listen to some music!
+      </b>
+    </p>
+
+    <img
+      src="images/college.jpg"
+      alt="West Valley"
+      width="600"
+      height="450"
+      style="border: 2px solid orange;"
+    />
+
+    <div id="About" style="border: 2px solid green;">
+      <h2>About the school</h2>
+      <p>
+        We are the best at what we do! From the arts to the sciences, we've got
+        you covered.
+        <br />
+        <br />
+        <strong>Here you will find all the information you need:</strong>
+      </p>
+      <ul>
+        <li>Course List</li>
+        <li>How to sign up for classes</li>
+        <li>Resource centers</li>
+        <li>Faculty list</li>
+        <li>Campus Map</li>
+      </ul>
+    </div>
+    <!-- end of about-->
+    <br />
+
+    <iframe
+      width="450"
+      height="350"
+      src="http://maps.google.co.uk/maps?q=moma+new+york
+&amp;output=embed"
+    >
+    </iframe>
+<br>
+<br>
+
+    <div id="moreinfo" style="border: 2px solid pink;">
+      <p>
+        Still need more information? No worries! Feel free to use our search bar
+        below!
+      </p>
+      <br />
+
+      <form action="http://www.example.org/search.php">
+        <input type="search" name="search" />
+        <button>Search</button>
+      </form>
+      <br />
+    </div><!-- end of moreinfo-->
+<br>
+
+    <div id="mailinglist" style="border: 2px solid red;">
+    <h2>Join our Mailing list!</h2>
+
+    If you join our mailing list, you will get exclusive information regarding
+    upcoming events, assignments, and well... more events!
+    <br />
+    Be the first to be “in the know”. We promise not to spam you.
+    <em>Really.</em>
+    <br />
+
+    <form action="http://www.example.org/mailinglist.php">
+      <p>Please enter your email address:</p>
+      <input type="email" name="email" />
+      <button>Submit</button>
+      <br />
+    </div><!-- end of mailinglist-->
+<br>
+
+    <div id="applications" style="border: 2px solid blue;">
+      <p>
+        <strong>
+          What kind of music applications do you like using while studying or on
+          the go?</strong
+        ><br />(You can choose more than one music streaming application):
+      </p>
+
+      <input type="checkbox" name="service" value="Apple Music" />Apple Music
+      <input type="checkbox" name="service" value="Spotfy" />Spotify
+      <input type="checkbox" name="service" value="LastFM" />Last.fm
+      <input type="checkbox" name="service" value="Pandora" />Pandora
+      <br />
+    </div><!-- end of applications-->
+<br>
+
+<div id="style" style="border: 2px solid black;">
+      <p>
+        <strong> Favorite style of music? </strong>
+        <br />
+      </p>
+      <input type="radio" name="genre" value="hiphop" />Hip-Hop
+      <input type="radio" name="genre" value="triphop" />Trip-Hop
+      <input type="radio" name="genre" value="glitchhop" />Glitch-Hop
+      <input type="radio" name="genre" value="jazz" />Jazz
+      <br />
+
+    </div><!-- end of style-->
+    <br>
+    
+    <div id=user style="border: 2px solid orange;">
+    <p>
+        <strong> Are you a MacOS, Windows, or Linux user?</strong> <br />
+        (As you browse the internet, which kind of computer OS are you using?):
+
+        <select name="OS">
+          <option value="default" selected="selected">-select one-</option>
+          <option value="macOS">MacOS</option>
+          <option value="windows">Windows</option>
+          <option value="linux">Linux</option>
+        </select>
+      </p>
+     </div><!-- end of user-->
+<br>
+
+     <div id="image" style="border: 2px solid purple;">
+      <p>
+        <strong>Add an image for your profile!</strong>
+
+        <input type="file" name="user-image" /><br />
+      </p>
+
+      <img src="images/student.jpg" alt="student" width="600" height="600" />
+      </div><!--- end of image-->
+<br>
+
+      <h2>Contact? Please use the form below:</h2>
+
+      <fieldset>
+        <legend>Contact details</legend>
+        <label
+          >First Name:<br />
+          <input type="text" name="first-name" /></label
+        ><br />
+        <label
+          >Last Name:<br />
+          <input type="text" name="last-name" /></label
+        ><br />
+        <label
+          >Email:<br />
+          <input type="email" name="email"
+        /></label>
+      </fieldset>
+
+      <p><strong>Set a date when you can visit the campus!</strong></p>
+
+      <label for="username">Date of visit:</label>
+      <input type="date" name="depart" />
+      <br />
+      <br />
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
